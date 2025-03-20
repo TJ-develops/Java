@@ -7,11 +7,11 @@ public interface shorthand {
         try (Scanner input = new Scanner(System.in)) {
             int x1 = 2;
         
-            System.out.println("Enter an Integer:");
+            System.out.println("Enter an Integer: ");
             int x = input.nextInt();
 
             x *= x1;
-            
+
             System.out.println(x);
         }
     }
