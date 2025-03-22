@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class logicaloperator {
+public class passstrengthcheck {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             System.out.println("Welcome! Let's check if your password is strong and secure.");
