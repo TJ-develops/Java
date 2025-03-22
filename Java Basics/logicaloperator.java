@@ -8,8 +8,11 @@ public class logicaloperator {
             System.out.println("Enter Your Password:");
             String x = input.nextLine();
             
-            if (x.length() >= 8){
+            if (x.matches("^(?=.*[@#$%^&+=!]).{8,}$")){
                 System.out.println("Strong Password!");
+            }
+            else{
+                System.out.println("Weak Password");
             }
         }
     }
